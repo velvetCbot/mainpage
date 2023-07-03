@@ -67,6 +67,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-bottom: 40px;
+	position: relative;
 }
 
 .search-wrap {
@@ -1216,4 +1217,104 @@ div [data-ke-type="moreLess"] a {
 		padding: 40px 20px;
 	}
 
+	
+
+}
+
+
+
+/*고양이를 위한 버튼*/
+
+
+/*고양이들*/
+
+#cat{
+	width: 600px;
+	height:240px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	display: none;
+}
+
+.one_cat{
+	position: absolute;
+	bottom: -183px;
+	left: -40px;
+	rotate: 30deg;
+}
+
+.two_cat{
+	position: absolute;
+	bottom: 214px;
+	left: 499px;
+}
+
+
+.tree_cat{
+	position: absolute;
+	top: 379px;
+	left: -52px;
+}
+
+
+.five_cat{
+	position: absolute;
+	top: 874px;
+	left: 50px;
+}
+
+.six_cat{
+	position: absolute;
+	bottom: -680px;
+	left: 300px;
+}
+
+.seven_cat{
+	position: absolute;
+	bottom: -849px;
+	left: 366px;
+}
+
+.eight_cat{
+	position: absolute;
+	bottom: -587px;
+	left: 0px;
+}
+
+
+#cake_dog{
+	position: absolute;
+	top: 130px;
+	right: 0px;
+}
+
+
+.ni_cat{
+	position: absolute;
+	bottom: -347px;
+	right: 35px;
+}
+
+
+.arrow{
+	position: absolute;
+	bottom: -340px;
+	right: 581px;
+	rotate: 269deg;
+}
+
+
+#btnWrap_open{
+	border: none;
+	outline: none;
+	background-color: inherit ;
+	cursor: pointer;
+}
+
+#btnWrap_close{
+	border: none;
+	outline: none;
+	background-color: inherit ;
+	cursor: pointer;
 }
