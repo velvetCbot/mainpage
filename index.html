@@ -29,6 +29,7 @@
 				$('.comment').slideToggle('blind');
 			})
 		});
+
 	</script>
 </head>
 <body style="background-color: black;">
@@ -53,9 +54,76 @@
                     <div class="buttons">
                         <a href="https://twitter.com/cake_gatekeeper"><div class="play"><i class="fas fa-play"></i>입장</div></a>
                        <a href="https://namu.wiki/w/%EB%B2%A8%EB%B2%B3%EC%BC%80%EC%9D%B4%ED%81%AC%EB%A7%9B%20%EC%BF%A0%ED%82%A4"> <div class="button"><i class="fas fa-plus"></i></div></a>
-                       <div class="button"><i class="far fa-thumbs-up"></i></div>
-                       <div class="button"><i class="far fa-thumbs-down"></i></div>
+                       
+                       <button id="btnWrap_open"><!--btnWrap 누르면 고양이 이미지 추가-->
+                         <div class="button" style="background-color: #535353;"><i class="far fa-thumbs-up"></i></div>
+                       </button><!--btnWrap_open end-->
+                       
+                       <button id="btnWrap_close"><!--누르면 고양이 이미지 삭제-->
+                       <div class="button" style="background-color: #535353;"><i class="far fa-thumbs-down"></i></div>
+                       </button><!--btnWrap_close-->
                     </div>
+
+                    <script>
+
+                        $('#btnWrap_close').click(function(){
+                            $("#cat").hide()
+                        });
+
+                        
+
+                        $('#btnWrap_open').click(function(){
+                            $("#cat").show()
+                        });
+                    </script>
+
+                    <div id="cat">
+                        <p class="one_cat">
+                            <img src="/image/cat1.png" alt="귤 고양이 이미지" style="width: 360px;">
+                        </p>
+                        <p class="two_cat">
+                            <img src="/image/cat2.png" alt="귤 고양이 이미지" style="width: 200px;">
+                        </p>
+
+                        <p class="tree_cat">
+                            <img src="/image/cat3.png" alt="귤 고양이 이미지" style="width: 350px;">
+                        </p>
+
+                        <p class="five_cat">
+                            <img src="/image/cat4.png" alt="귤 고양이 이미지" style="width: 200px;">
+                        </p>
+
+                        
+                        <p class="six_cat">
+                            <img src="/image/cat8.png" alt="귤 고양이 이미지" style="width: 300px;">
+                        </p>
+
+                                                
+                        <p class="seven_cat">
+                            <img src="/image/cat9.png" alt="귤 고양이 이미지" style="width: 150px;">
+                        </p>
+                        
+                        <p class="eight_cat">
+                            <img src="/image/cat5.png" alt="귤 고양이 이미지" style="width: 150px;">
+                        </p>
+
+                        <p id="cake_dog">
+                            <img src="/image/cat6.png" alt="귤 고양이 이미지" style="width: 200px;">
+                        </p>
+
+                         
+                        <p class="ni_cat">
+                            <img src="/image/cat7.png" alt="귤 고양이 이미지" style="width: 150px;">
+                        </p>
+                        <p class="arrow">
+                            <img src="/image/arrow_img.png" alt="귤 고양이 이미지" style="width: 60px;">
+                        </p>
+
+
+                    </div>
+
+
+
                     <div class="header-info">
                         <div class="info-left">
                             <div class="info1">
